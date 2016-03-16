@@ -24,12 +24,13 @@ public class LonelyInteger {
 					mapper.put(item, 1);
 				}
 			}
-			
 			for(Map.Entry<String,Integer> entry : mapper.entrySet()){				
 				if(entry.getValue()==1){
 					System.out.println(entry.getKey());
 				}
 			}
+			
+			
 		}
 		in.close();
 		
