@@ -14,7 +14,6 @@ public class TreeHeight {
 		} else {
 			return Math.max(height(root.left) + 1, height(root.right) + 1);
 		}
-
 	}
 
 	public static void main(String[] args) {
