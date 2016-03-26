@@ -11,7 +11,7 @@ public class MaximizingXOR {
 		in.close();
 		int max=0;
 		int min=0;
-		
+
 		for(int i=l;i<=r;i++){
 			for(int j=l;j<=r;j++){
 				min=i^j;
