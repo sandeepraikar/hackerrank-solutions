@@ -13,6 +13,7 @@ public class Anagrams {
             String curr = read.next();
             if(curr.length()%2!=0){
                 System.out.println(-1);
+                
                 continue;
             }else{
                 char[] s1= curr.substring(0, (curr.length()/2)).toCharArray();
