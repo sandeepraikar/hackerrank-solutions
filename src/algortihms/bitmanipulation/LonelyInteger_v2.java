@@ -12,6 +12,7 @@ public class LonelyInteger_v2 {
 		int N = in.nextInt();
 		
 		Map<String, AtomicInteger> mapper= new HashMap<String, AtomicInteger>();
+		
 		if(N%2==1){			
 			for(int i=0;i<N;i++){
 				String item = in.next();
