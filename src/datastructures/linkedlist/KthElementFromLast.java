@@ -39,7 +39,7 @@ public class KthElementFromLast {
 		n.add(25);
 		n.add(30);
 		n.print();		
-		System.out.println(findkthLastTerm(n,3));
+		System.out.println(findkthLastTerm(n,2));
 		
 	}
 
@@ -48,7 +48,7 @@ public class KthElementFromLast {
 		Node ptr2 = n;
 		
 		
-		while(k!=1){
+		while(k!=0){
 			ptr2=ptr2.next;
 			k--;
 		}
