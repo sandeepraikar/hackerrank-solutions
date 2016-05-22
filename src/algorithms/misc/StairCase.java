@@ -16,6 +16,7 @@ public class StairCase {
                 temp--;
                 result=null;
             }
+            
 	}
 
 }
