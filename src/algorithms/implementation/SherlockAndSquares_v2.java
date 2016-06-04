@@ -11,6 +11,7 @@ public class SherlockAndSquares_v2 {
         for(int i=0;i<t;i++){
             int a = in.nextInt();
             int b = in.nextInt();
+            
             int count=0;
             count=(int)((Math.floor(Math.sqrt(b))) - (Math.ceil(Math.sqrt(a)))+1);                
             System.out.println(count);
