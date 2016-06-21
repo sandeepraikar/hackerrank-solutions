@@ -4,6 +4,7 @@ public class MaximumSubArray_V2 {
 
 	public static void main(String[] args) {
 		int arr[]= {-5,-3,-2,-3,-4,-5};
+		//int arr[]= {-1};
 		printMaxSumSubArray(arr);
 	}
 
