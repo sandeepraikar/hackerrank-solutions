@@ -1,6 +1,4 @@
 package datastructures.linkedlist;
-import java.awt.DisplayMode;
-
 
 public class DeleteMidNode {
 

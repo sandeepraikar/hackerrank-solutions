@@ -16,6 +16,7 @@ public class FindMergePointOfTwoLinkedLists {
 	    // Do not write the main method. 
 	    Node currA= headA;
 	    Node currB= headB;
+	    
 	    while(currA!=currB){
 	        if(currA.next==null){
 	            currA=headB;

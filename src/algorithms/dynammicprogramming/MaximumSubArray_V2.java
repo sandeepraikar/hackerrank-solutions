@@ -20,8 +20,7 @@ public class MaximumSubArray_V2 {
 			}
 			result = Math.max(sum, result);
 			if (arr[arr.length - 1] <= 0) {				
-				sum = arr[arr.length - 1];
-				
+				sum = arr[arr.length - 1];				
 			} else {
 				for (int x : arr) {
 					if (x > 0)
